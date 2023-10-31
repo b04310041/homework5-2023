@@ -196,7 +196,7 @@ justify-content: center;
 
 }
 
-@media (prefers-reduced-motion: reduce){
+@media all and (prefers-reduced-motion: reduce) {
     /* 
     step 14:
     The logo class should appear but not be animated 
